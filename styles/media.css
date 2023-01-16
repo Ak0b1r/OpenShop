@@ -1,0 +1,350 @@
+@media (max-width:1200px) {
+    .section__xbox{
+        margin-top: 80px;
+    }
+    .xbox__title{
+        top: -70px;
+    }
+    .xbox__text{
+        top: 5px;
+    }
+    .bg__box{
+        background: #fff;
+    }
+    .play__link{
+        bottom: 80px;
+    }
+    .section2__intro{
+        text-align: center;
+        margin-bottom: 200px;
+    }
+    .intro2__box{
+        bottom: -180px;
+        justify-content: flex-end;
+        left: 0;
+    }
+    .intro__shop{
+        margin-top: 20px;
+    }
+    .shop__box1{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .shop__item{
+        margin-right: 0;
+    }
+    .section__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section__buy{
+        right: 100px;
+        left: 100px;
+    }
+    .iphone__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .vr__title{
+        top: auto;
+        bottom: 30px;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    .vr__text{
+        width: auto;
+        top: auto;
+        bottom: -30px;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    .section__vr{
+        width: auto;
+        height: auto;
+    }
+    .footer__icons{
+        right: 200px;
+        bottom: 0;
+        top: auto;
+    }
+}
+@media (max-width:992px) {
+    .play__logo{
+        top: 120px;
+    }
+    .play__title{
+        top: auto;
+        bottom: -45px;
+    }
+    .play__link{
+        bottom: -100px;
+    }
+    .section__play{
+        margin-bottom: 200px;
+    }
+    .intro__img{
+        width: 90%;
+        height: 90%;
+    }
+    .section2__ul{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .section1__input{
+        width: 300px;
+    }
+    .section1__link{
+        margin-right: 50px;
+    }
+    .footer__input{
+        width: 100%;
+    }
+    .footer__icons{
+        right: 50px;
+    }
+    .footer__img{
+        margin-right: 50px;
+    }
+}
+@media (max-width:768px) {
+    .xbox__title{
+        top: -85px;
+    }
+    .xbox__text{
+        top: -10px;
+    }
+    .play__title{
+        top: auto;
+        bottom: -45px;
+    }
+    .play__link{
+        bottom: -100px;
+    }
+    .shop__item{
+        width: 500px;
+        height: 400px;
+    }
+    .shop__item2{
+        width: 500px;
+        height: 190px;
+    }
+    .shop__item3, .shop__item4{
+        width: 235px;
+        height: 200px;
+    }
+    .section1__link{
+        margin-right: 0;
+    }
+    .footer__part{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .search__box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .icon__link{
+        font-size: 29px;
+    }
+    .footer__icons{
+        right: 0;
+    }
+    .vr__title{
+        bottom: 0;
+    }
+    .vr__text{
+        bottom: -60px;
+        font-size: 21px;
+    }
+    .vr__link{
+        bottom: 110px;
+        right: 50px;
+    }
+}
+@media (max-width:576px) {
+    .section__xbox{
+        margin-top: 120px;
+        margin-bottom: 114px;
+    }
+    .xbox__title{
+        right: 0;
+        left: 0;
+        text-align: center;
+        font-size: 37px;
+        line-height: 40px;
+        top: -150px;
+    }
+    .xbox__text{
+        text-align: center;
+        width: auto;
+        top: -50px;
+        left: 10px;
+        right: 10px;
+    }
+    .xbox__link{
+        left: auto;
+        bottom: -69px;
+        right: 20px;
+    }
+    .play__logo{
+        width: 200px;
+        height: 50px;
+        top: 20px;
+        left: 0;
+    }
+    .play__link{
+        bottom: -155px;
+        left: auto;
+        right: 20px;
+    }
+    .play__title{
+        font-size: 37px;
+        line-height: 40px;
+        text-align: center;
+        bottom: -85px;
+    }
+    .section1__input{
+        width: 100%;
+    }
+    .section1__btn{
+        width: 90%;
+    }
+    .header__catagory{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .iphone__link{
+        padding: 8px 30px;
+    }
+    #iphone__link1{
+        padding: 8px 39px;
+    }
+    .footer__img{
+        margin-right: 0;
+    }
+    .header__lang{
+        margin-right: 60px;
+    }
+    .vr__link{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .section__box{
+        margin-bottom: 0;
+    }
+    .shop__item2{
+        width: 235px;
+        height: 200px;
+    }
+    .shop__box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop__item3{
+        margin-right: 0;
+    }
+    .shop__box3{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+}
+@media (max-width:400px) {
+    .section__xbox{
+        margin-top: 160px;
+    }
+    .xbox__title{
+        top: -175px;
+    }
+    .xbox__text{
+        font-size: 21px;
+        line-height: 30px;
+        top: -90px;
+    }
+    .page__btn{
+        bottom: -10px;
+    }
+    .intro__title{
+        font-size: 40px;
+    }
+    .intro2__box{
+        bottom: -260px;
+    }
+    .section2__intro{
+        margin-bottom: 300px;
+    }
+    .play__link{
+        bottom: -150px;
+    }
+    .play__title{
+        font-size: 30px;
+        bottom: -80px;
+    }
+    .section__title{
+        text-align: center;
+    }
+    .play__logo{
+        top: -40px;
+    }
+    .shop__item{
+        height: 350px;
+    }
+    .iphone__title{
+        text-align: center;
+    }
+    .section1__btn{
+        width: 60%;
+    }
+    .footer__ul{
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .footer__icons{
+        left: 0;
+        bottom: -60px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+        padding-bottom: 80px;
+    }
+    .vr__title{
+        font-size: 37px;
+        bottom: -15px;
+    }
+    .vr__link{
+        bottom: 85px;
+        right: 25px;
+    }
+    #iphone__link1{
+        margin-right: 10px;
+    }
+    .iphone__box2{
+        width: auto;
+        height: auto;
+    }
+    .ihone__img{
+        width: 100%;
+        height: 100%;
+    }
+    .iphone__link,#iphone__link1,.vr__link{
+        padding: 8px 15px;
+    }
+    .header__lang{
+        margin-right: 0;
+    }
+    .play-vr{
+        margin-bottom: 120px;
+    }
+    .vr__text{
+        bottom: -110px;
+    }
+}

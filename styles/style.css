@@ -1,0 +1,896 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    background: #313131;
+}
+
+.header__content{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header__item{
+    position: relative;
+    display: block;
+}
+
+.header__lang{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fff;
+    margin-right: 80px;
+    transition: .2s;
+}
+
+.header__catagory{
+    display: flex;
+    gap: 35px;
+}
+
+.header__link,.header__dropdown-link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    transition: .2s;
+}
+
+.header__link:hover,.header__lang:hover,.header__dropdown-link:hover{
+    color: #ABABAB;
+}
+
+.header__link{
+    line-height: 50px;
+}
+
+.header__dropdown-link{
+    color: #313131;
+    padding: 5px 14px 2px;
+    display: block;
+}
+
+.header__item:hover .header__dropdown{
+    opacity: 1;
+    display: block;
+}
+
+.header__dropdown{
+    position: absolute;
+    top: 50px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    width: 80px;
+    transition: .2s;
+    opacity: 0;
+}
+
+.header__dropdown-item:nth-child(2){
+    border-top: 1px solid #ABABAB;
+}
+
+.section2__item{
+    position: relative;
+    z-index: 10;
+}
+
+.section2__dropdown{
+    position: absolute;
+    top: 50px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    width: 80px;
+    transition: .2s;
+    display: none;
+}
+
+.section2__item:hover .section2__dropdown{
+    display: block;
+}
+
+.section2__dropdown-link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #313131;
+    display: block;
+    padding-left: 10px;
+    transition: .1s;
+}
+
+.section2__dropdown-link:hover{
+    color: #ABABAB;
+}
+
+#apple{
+    text-decoration: underline;
+}
+
+.search__box{
+    display: flex;
+    align-items: center;
+}
+
+.section1__link{
+    margin: 18px 143px 18px 0;
+}
+
+.section1__box{
+    display: flex;
+}
+
+.section1__input{
+    width: 440px;
+    height: 50px;
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BBBBBB;
+    padding: 15px 0 15px 10px;
+    outline: none;
+}
+
+.section1__btn{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    background: #313131;
+    width: 190px;
+    height: 50px;
+    border: none;
+}
+
+.section2__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.section2__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 70px;
+    color: #313131;
+    transition: .3s;
+}
+
+#page{
+    text-decoration: underline;
+}
+
+.section2__link:hover{
+    color: #ABABAB;
+}
+
+.section2__intro{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.intro__img{
+    width: 740px;
+    height: 600px;
+}
+
+.intro2__box{
+    position: absolute;
+    right: 0;
+    bottom: 166px;
+    top: 163px;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.intro__shop{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 46px;
+    margin-top: 121px;
+    transition: .3s;
+}
+
+.intro__shop:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+.section2 .container{
+    position: relative;
+}
+
+.page__btn{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#a1,#a3{
+    width: 10px;
+    height: 10px;
+    background: #ABABAB;
+    border-radius: 50%;
+    border-style: none;
+}
+
+#a2{
+    width: 15px;
+    height: 15px;
+    background: #313131;
+    border-radius: 50%;
+    border-style: none;
+}
+
+#a11,#a22{
+    width: 10px;
+    height: 10px;
+    background: #ABABAB;
+    border-radius: 50%;
+    border-style: none;
+}
+
+#a33{
+    width: 15px;
+    height: 15px;
+    background: #313131;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.shop__box1{
+    display: flex;
+    margin-bottom: 30px;
+    filter: drop-shadow(-10px 5px 4px rgba(0, 0, 0, 0.25));;
+}
+
+.search__box3{
+    gap: 30px;
+}
+
+.shop__item{
+    width: 630px;
+    height: 500px;
+    position: relative;
+    margin-right: 30px;
+    background: #e5e5e5;
+}
+
+.shop__item2{
+    width: 630px;
+    height: 235px;
+    position: relative;
+    margin-bottom: 30px;
+    background: #e5e5e5;
+}
+
+.shop__item3,.shop__item4{
+    width: 300px;
+    height: 235px;
+    position: relative;
+    background: #e5e5e5;
+}
+
+.shop__item3{
+    margin-right: 30px;
+}
+
+.item__img,.item__img2,.item__img3{
+    width: 100%;
+}
+
+.shop__box3{
+    display: flex;
+}
+
+.item__title,.item__title2,.item__title3{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    color: #313131;
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+.item__title2{
+    line-height: 30px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.item__title3{
+    line-height: 35px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.item__cost,.item__cost2,.item__cost3{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 70px;
+    color: #313131;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.item__cost2{
+    top: 73px;
+}
+
+.item__cost3{
+    top: 55px;
+}
+
+.item__sale{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    color: #fff;
+    background: #313131;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.item__sale2{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    color: #fff;
+    background: #313131;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.learn{
+    padding: 30px 0 70px 0;
+    text-align: center;
+}
+
+.learn__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 28px;
+    transition: .3s;
+}
+
+.learn__link:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+.section__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #313131;
+    margin-bottom: 30px;
+}
+
+.section__block{
+    display: flex;
+    gap: 30px;
+}
+
+.section__box{
+    width: 300px;
+    height: 330px;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.section__box:hover{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.section__img{
+    width: 100%;
+    height: 100%;
+}
+
+.section__model{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #313131;
+    position: absolute;
+    bottom: 52px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.section__cost{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #313131;
+    position: absolute;
+    bottom: 28px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.section__buy{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+    background: #313131;
+    width: 100px;
+    height: 30px;
+    padding: 6px 36px;
+    position: absolute;
+    bottom: -1px;
+    right: 125px;
+    left: 75px;
+    transform: translateY(100%);
+    transition: .3s;
+}
+
+.section__box:hover .section__buy{
+    transform: translateY(0px);
+}
+
+.img__icon{
+    position: absolute;
+    right: 17px;
+    top: 16px;
+    color: #313131;
+    transform: translateY(-32px);
+    transition: .3s;
+}
+
+.section__box:hover .img__icon{
+    transform: translateY(0px);
+}
+
+.section__play{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.play__img{
+    width: 100%;
+    height: 100%;
+}
+
+.play__logo{
+    position: absolute;
+    top: 94px;
+    left: 20px;
+}
+
+.play__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #313131;
+    position: absolute;
+    top: 185px;
+    left: 20px;
+}
+
+.play__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 40px;
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    transition: .3s;
+}
+
+.play__link:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+.xbox{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.section__xbox{
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.xbox__img{
+    width: 100%;
+    height: 100%;
+}
+
+.xbox__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #313131;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.xbox__text{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #313131;
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    width: 454px;
+}
+
+.xbox__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 38px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    transition: .3s;
+}
+
+.xbox__link:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+.xbox__bg{
+    position: relative;
+}
+
+.bg__box{
+    background: #E3E3E3;
+    width: 100%;
+    height: 172px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.section__page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #ABABAB;
+}
+
+.page__line{
+    background: #ABABAB;
+    width: 2px;
+    height: 35px;
+    border: none;
+}
+#page__link1,.page__link-icon{
+    color: #000;
+}
+
+#page__line1,#page__link-next{
+    color: #313131;
+}
+
+.iphone__block{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.iphone__box1{
+    display: flex;
+    flex-direction: column;
+    margin: 45px 30px 0 0;
+}
+
+.img__box{
+    width: 80px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+#img__box1{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+}
+
+.iphone__box2{
+    width: 409px;
+    height: 410px;
+    margin-top: 20px;
+    margin-right: 31px;
+}
+
+.iphone__img{
+    width: 100%;
+    height: 100%;
+}
+
+.iphone__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 70px;
+    color: #000;
+}
+
+.iphone__cost,.iphone__about{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+
+.iphone__cost{
+    margin-top: 20px;
+}
+
+.iphone__text{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+}
+
+.iphone__icon{
+    font-size: 7px;
+    margin-right: 15px;
+}
+
+.iphone__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 45px;
+    transition: .3s;
+}
+
+.iphone__link:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+#iphone__link1{
+    margin-right: 30px;
+    padding: 12px 54px;
+}
+
+.play-vr{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.section__vr{
+    width: 1140px;
+    height: 500px;
+    position: relative;
+}
+
+.vr__img{
+    width: 100%;
+    height: 100%;
+}
+
+.vr__title{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: #313131;
+    position: absolute;
+    top: 20px;
+    right: 160px;
+}
+
+.vr__text{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #313131;
+    position: absolute;
+    top: 124px;
+    right: 0;
+    width: 454px;
+}
+
+.vr__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #313131;
+    padding: 12px 38px;
+    position: absolute;
+    bottom: 145px;
+    right: 132px;
+    transition: .3s;
+}
+
+.vr__link:hover{
+    color: #313131;
+    background: #e5e5e5;
+}
+
+.footer{
+    background: #313131;
+    padding: 30px 0 45px 0;
+    position: relative;
+}
+
+.footer__part{
+    display: flex;
+    position: relative;
+}
+
+.footer__img{
+    margin-right: 143px;
+}
+
+.footer__text{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.footer__part3{
+    display: flex;
+}
+
+.footer__input{
+    width: 330px;
+    height: 50px;
+    outline: none;
+}
+
+.footer__btn{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    background: #313131;
+    border-color: #fff;
+    width: 190px;
+    height: 50px;
+}
+
+.footer__ul{
+    display: flex;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.footer__link{
+    font-family: "Noto Sans",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer__link:hover{
+    color: #ABABAB;
+}
+
+.footer__icons{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: flex;
+}
+
+.icon__link{
+    color: #fff;
+    font-size: 41px;
+    margin-right: 20px;
+    transition: .2s;
+}
+
+.icon__link:hover{
+    color: #ABABAB;
+}
