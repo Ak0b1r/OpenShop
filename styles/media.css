@@ -306,12 +306,17 @@
     .footer__ul{
         justify-content: center;
         padding-top: 30px;
+        margin-left: 10px;
     }
     .footer__icons{
         left: 0;
         bottom: -60px;
         display: flex;
         justify-content: center;
+        gap: 20px;
+    }
+    .icon__link{
+        margin-right: 0;
     }
     .footer{
         padding-bottom: 80px;
